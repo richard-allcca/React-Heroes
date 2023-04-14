@@ -4,22 +4,26 @@ Este es un proyecto basico para dominar manejo de rutas privadas y publicas usan
 
 ## Tabla de contenido
 
-   - SPA ( Single Page Application ) a profundidad
+- SPA ( Single Page Application ) a profundidad
 
-   - Diferentes temas en la misma aplicación aplicados a diferentes rutas
+- Diferentes temas en la misma aplicación aplicados a diferentes rutas
 
-   - Multiples Routers
+- Multiples Routers
 
-   - Push y Replace en el History
+- Push y Replace en el History
 
-   - Rutas públicas
+- Rutas públicas
 
-   - Rutas privadas
+- Rutas privadas
 
-   - Login y logout - Sin backend aún
+- Login y logout - Sin backend aún
 
-   - Recordar cuál fue la última ruta visitada para mejorar la experiencia de usuario.
+- Recordar cuál fue la última ruta visitada para mejorar la experiencia de usuario.
 
-   - Context
+- Context
 
-   - Reducer
+- Reducer
+
+## Vista previa
+
+![Preview](./public/preview.png)
