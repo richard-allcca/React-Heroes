@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/React-Heroes/static/js/main.07a34d4e.chunk.js",
-    "main.js.map": "/React-Heroes/static/js/main.07a34d4e.chunk.js.map",
+    "main.js": "/React-Heroes/static/js/main.63a73291.chunk.js",
+    "main.js.map": "/React-Heroes/static/js/main.63a73291.chunk.js.map",
     "runtime-main.js": "/React-Heroes/static/js/runtime-main.1d33347d.js",
     "runtime-main.js.map": "/React-Heroes/static/js/runtime-main.1d33347d.js.map",
     "static/js/2.0c97904e.chunk.js": "/React-Heroes/static/js/2.0c97904e.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.1d33347d.js",
     "static/js/2.0c97904e.chunk.js",
-    "static/js/main.07a34d4e.chunk.js"
+    "static/js/main.63a73291.chunk.js"
   ]
 }
