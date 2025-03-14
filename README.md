@@ -2,6 +2,8 @@
 
 Este es un proyecto basico para dominar manejo de rutas privadas y publicas usando reducer para el manejo del estado global
 
+Node 16.17.0
+
 ## Tabla de contenido
 
 - SPA ( Single Page Application ) a profundidad

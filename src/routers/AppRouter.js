@@ -9,30 +9,30 @@ import { DashboardRoutes } from './DashboardRoutes';
 
 
 export const AppRouter = () => {
-    return (
-        <BrowserRouter>
-            
-            <Routes>
-                
-                {/* <Route path="/login" element={<LoginScreen />} /> */}
-                <Route path="/login" element={
-                    <PublicRoute>
-                        <LoginScreen />
-                    </PublicRoute>
-                } 
-                />
-                
+  return (
+    <BrowserRouter>
 
-                <Route path="/*" element={ 
-                        <PrivateRoute>
-                            <DashboardRoutes />
-                        </PrivateRoute>
-                    } 
-                />
+      <Routes>
 
-                {/* <Route path="/*" element={ <DashboardRoutes />  } /> */}
+        {/* <Route path="/login" element={<LoginScreen />} /> */ }
+        <Route path="/login" element={
+          <PublicRoute>
+            <LoginScreen />
+          </PublicRoute>
+        }
+        />
 
-            </Routes>
-        </BrowserRouter>
-    )
-}
+
+        <Route path="/*" element={
+          <PrivateRoute>
+            <DashboardRoutes />
+          </PrivateRoute>
+        }
+        />
+
+        {/* <Route path="/*" element={ <DashboardRoutes />  } /> */ }
+
+      </Routes>
+    </BrowserRouter>
+  );
+};

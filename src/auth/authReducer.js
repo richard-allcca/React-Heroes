@@ -1,10 +1,5 @@
 import { types } from '../types/types';
 
-// const state = {
-//     name: 'Fernando',
-//     logged: true
-// }
-
 export const authReducer = ( state = {}, action ) => {
 
     switch ( action.type ) {
@@ -18,7 +13,7 @@ export const authReducer = ( state = {}, action ) => {
             return {
                 logged: false
             }
-    
+
         default:
             return state;
     }

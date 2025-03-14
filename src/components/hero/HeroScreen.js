@@ -21,7 +21,8 @@ export const HeroScreen = () => {
 	const { id, superhero, publisher, alter_ego, first_appearance, characters } =
 		hero;
 
-	const imagePath = `/assets/${id}.jpg`;
+	// Construir la ruta de la imagen usando el id del héroe
+	const imagePath = `${process.env.PUBLIC_URL}/assets/${id}.jpg`;
 
 	return (
 		<div className="row mt-5">
